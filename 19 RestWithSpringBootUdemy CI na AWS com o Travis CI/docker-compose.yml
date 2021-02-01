@@ -15,7 +15,7 @@ services:
     networks:
       - udemy-network
   rest-with-spring-boot-udemy:
-    image: tiagogomes187/rest-with-spring-boot-udemy
+    image: rest-with-spring-boot-udemy
     restart: always
     build: ./RestWithSpringBootUdemy
     working_dir: /RestWithSpringBootUdemy
